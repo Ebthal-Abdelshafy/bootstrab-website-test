@@ -1,0 +1,211 @@
+*{
+    box-sizing: border-box;
+}
+.caption-content h1{
+    color: #fff;
+    font-weight: 600;
+    font-size: 4.5rem;
+}
+#home a{
+    color:#fff; 
+    transition: all 3s;
+}
+
+#home a:hover {
+    color:#0078FF;
+    border-bottom:2px solid white;
+    
+}
+
+
+#home{
+    background-image: url("../images/intro-bg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+}
+
+.home-rgba{
+    background-color:rgba(0, 0, 0, 0.5);
+}
+
+.caption-anime{
+    animation-name: animation1;
+    animation-iteration-count: infinite;
+    animation-duration: 5s;
+    animation-direction: alternate;
+
+
+}
+@keyframes animation1 {
+    from{transform: translate(500px,0);}
+    to{transform: translate(-650px,0);}
+
+}
+
+
+.main-line {
+    width: 100px;
+    height: 3px;
+    background-color: #0078FF;
+    padding-left: 10px;;
+
+}
+
+.base-line-container {
+    width:200px;
+    height: 50px;
+    background-color: yellow;
+}
+.basic-line{
+    width: 70px;
+    height: 3px;
+    background-color: #0078FF;
+}
+
+.services-content  i:hover{
+    color: white;
+    background-color: #0078Ff ;
+    border:5px solid white;
+
+}
+.main-color{
+   color: #0078Ff ;
+}
+#counter{
+    background-image: url(../images/counters-bg.jpg);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+
+
+#work{
+    background-color: #F5F5F5;
+
+}
+.background-trans {
+    background-color: rgba(15, 100, 188, 0.7);
+}
+.portofolio-img{
+    position: relative;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+}
+
+.portofolio-caption img{
+    transition: all 3s;
+}
+
+    
+.portofolio-caption img:hover{
+    transform: scale(1.5);
+}
+.icon i:hover {
+    background-color: #0078Ff ;
+}
+
+
+
+#slider{
+    background-image: url(../images/overlay-bg.jpg);
+    background-size: 100% 100%;
+}
+.container-rgba{
+    background-color: rgba(62, 140, 232, 0.7)
+
+}
+/* 
+.container-rgba{
+    background-color: rgba(15, 100, 188, 0);
+    position: relative;
+    left: 0;
+   top: 0;
+    width: 100%;
+    z-index: 2255;
+} */
+
+.active2{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%  !important ; 
+    background-color:white;
+}
+.small-img-card{
+    width: 40px;
+}
+#blog{
+    background-color: #F5F5F5;
+}
+
+.list-group-item{
+    background-color: #F5F5F5;   
+}
+
+
+.card  a:hover{
+    color: #0078Ff !important;
+}
+.contact-last {
+    background-image: url("../images/overlay-bg.jpg") !important;
+    background-attachment: fixed;
+}
+.contact-rgba{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(60, 140, 230, 0.7);
+
+    
+}
+.item{
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+.caption{
+    background-color: white;
+    position: absolute;
+    bottom: -50px;
+    left:15px;
+    right: 15px; 
+    opacity: 0;
+    text-align: center;
+    transition: 0.5s all;
+}
+.item:hover .caption{
+    opacity: 1;
+    bottom: 15px;
+}
+
+#boxContainer{
+    background-color: rgba(0, 0, 0, 0.4);
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    display: none;
+    /* width:100% */
+    /* height:100% */
+}
+#innerBox{
+    width: 50%;
+    height: 500px;
+    background-image: url(../images/portfolio-1.jpg);
+    background-size: cover;
+    transform: scale();
+}
+#innerBox i{
+    font-size: 25px;
+    cursor: pointer;
+
+}
+@media screen and (max-width: 778px  )  {
+
+.caption-content h1{
+    font-weight: 600;
+    font-size: 3rem;
+}
+
+}
